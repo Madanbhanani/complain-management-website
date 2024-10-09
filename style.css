@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.container{
+    padding: 10px;
+    text-align: center;
+    width: 300px !important;
+    min-width: 300px !important;
+    background-color: rgba(238, 243, 238, 0.89) !important;
+    box-shadow: 0px 0px 5px rgb(165, 185, 165);
+    border-radius: 10px;
+}
+.container h2{
+    margin-bottom: 70px;
+    margin-top: 20px;
+}
+input{
+    width: 90%;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 4px ;
+    border: none;
+    box-shadow: 0px 0px 5px rgb(165, 185, 165);
+   
+}
+.buttons{
+     width: 100px;
+     background-color: darkolivegreen;
+     border: none;
+     margin: 30px 10px;
+     border-radius: 4px;
+     font-weight: bold;
+     color: white;
+}
+#error{
+    text-align: left;
+    color: brown;
+    width: 80%;
+    margin: auto;
+    padding: 8px 0px 8px 0px;
+    height: 30px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+/*___________________ icons  &  media Screen____________________ */
+#conformpassword,#password{
+     margin-left: 12px;
+}
+  #lockIcon,#lockIcon2{
+     position: relative;
+     right: 30px;
+  }
+  #openLock,#openLock2{
+    position: relative !important;
+    right: 30px !important;
+    display: none;
+  }
+
+  
+@media (max-width:500px) {
+    .container{
+          width: 85% !important;
+      }
+    .buttons{
+        width: 40% !important; 
+    }  
+}
+
+@media (max-width:300px) {
+    .container{
+         width: 80% !important;
+         min-width: 200px !important;
+     }
+    .buttons{
+        margin: 20px 0px !important;
+        width: 80px !important; 
+    } 
+      }
+
+

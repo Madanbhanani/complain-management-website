@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.container{
+    padding: 10px;
+    text-align: center;
+    width: 300px !important;
+    min-width: 300px !important;
+    background-color: rgba(238, 243, 238, 0.89) !important;
+    box-shadow: 0px 0px 5px rgb(165, 185, 165);
+    border-radius: 10px;
+}
+.container h2{
+    margin-bottom: 100px;
+    margin-top: 20px;
+}
+input{
+    width: 93%;
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0px 0px 5px rgb(165, 185, 165);
+
+}
+.buttons{
+     width: 100px;
+     background-color: darkolivegreen;
+     border: none;
+     margin: 50px 10px;
+     border-radius: 4px;
+     font-weight: bold;
+     color: white;
+
+}
+#error{
+    text-align: left;
+    color: brown;
+    width: 80%;
+    margin: auto;
+    padding: 8px 0px 8px 0px;
+    height: 30px;
+    font-weight: bold;
+    font-size: 12px;
+    border-radius: 4px !important;
+}
+/* view password icons  ________*/
+#password{
+   margin-left: 10px;
+ }
+#lockIcon,#lockIcon{
+   position: relative;
+   right: 30px;
+   top: 10px;
+}
+#openLock,#openLock{
+   position: relative !important;
+   right: 30px !important;
+   display: none;
+   top: 10px;
+
+}
+/* css media screen ____________*/
+
+@media (max-width:500px) {
+    .container{
+          width: 85% !important;
+      }
+      .buttons{
+        width: 40% !important; 
+    } 
+}
+@media (max-width:300px) {
+.container{
+     width: 80% !important;
+     min-width: 200px !important;
+ }
+.buttons{
+    margin: 20px 0px !important; 
+    width: 80px !important; 
+
+} 
+  }

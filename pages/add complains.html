@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complains</title>
+    <link rel="stylesheet" href="../css/add complaints.css">
+</head>
+<body>
+  
+    <div class="container">
+        <h2>Complains</h2>
+        <input type="text" placeholder="Complain Title" id="title"> <br>
+        <input type="url" placeholder="Complain URL" id="url"> <br>
+        <input type="txt" placeholder="Complain Desc" id="desc"> <br>
+        <input type="date" placeholder="Complain Date" id="date"> <br>
+        <p id="error"></p>
+         <div id="btnSCon">
+           <img src="../image/circle-arrow-left-solid.svg" onclick="back_Arrow()" width="30px" title="back" id="back_Arrow"> 
+            <input type="button" value="Submit" class="buttons" onclick="submitBtn()">
+       </div>
+    </div>
+</body>
+  <script src="../js/add complains.js"></script>
+</html>
